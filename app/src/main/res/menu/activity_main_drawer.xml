@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!-- I will be using groups to create dividing lines -->
+    <!-- Section 1 Home -->
+    <group
+        android:id="@+id/g1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/iconhome"
+            android:title="@string/menu_home" />
+    </group>
+    <!-- Section 2 Information -->
+    <group android:checkableBehavior="single" android:id="@+id/g2">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/iconabout"
+            android:title="@string/menu_about"/>
+        <item
+            android:id="@+id/nav_tabfolio"
+            android:icon="@drawable/iconportfolio"
+            android:title="@string/menu_portfolio"/>
+    </group>
+    <!-- Section 3 Fun Apps -->
+    <group android:checkableBehavior="single" android:id="@+id/g3">
+        <item
+            android:id="@+id/nav_petview"
+            android:icon="@drawable/iconpet"
+            android:title="Pet View" />
+        <item
+            android:id="@+id/nav_foodview"
+            android:icon="@drawable/iconfood"
+            android:title="Food View" />
+        <item
+            android:id="@+id/nav_statview"
+            android:icon="@drawable/iconstats"
+            android:title="YOUR Tab!" />
+    </group>
+    <!-- Section 4 Contact -->
+    <group android:checkableBehavior="single" android:id="@+id/g4">
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/iconfab"
+            android:title="@string/menu_contact"/>
+    </group>
+</menu>

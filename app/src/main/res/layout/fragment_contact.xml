@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:context=".ContactFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/contactgraphic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="cursive"
+        android:text="Contact Me"
+        android:textAlignment="center"
+        android:textColor="@color/primaryColor"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tvAbout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="monospace"
+        android:text="My Email:"
+        android:textAlignment="center"
+        android:textColor="@color/secondaryColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHome"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/tvAbout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="monospace"
+        android:text="pm222378@students.euc.ac.cy"
+        android:textAlignment="center"
+        android:textColor="@color/primaryColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHome"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/tvAbout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="monospace"
+        android:text="My website:"
+        android:textAlignment="center"
+        android:textColor="@color/secondaryColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHome"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/tvAbout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="monospace"
+        android:text="p-mt.carrd.co"
+        android:textAlignment="center"
+        android:textColor="@color/primaryColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHome"
+        app:layout_constraintVertical_bias="0.04" />
+
+</LinearLayout>

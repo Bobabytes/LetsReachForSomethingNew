@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".ui.main.PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondaryColor"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/tvPortfolio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:text="A website developed entirely in HTML5, JQuery and CSS. Features custom styling and graphics created by me."
+        android:textAlignment="center"
+        android:textColor="@color/secondaryColor"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <!-- Thumbnail -->
+    <ImageView
+        android:id="@+id/ivPortfolio1"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:contentDescription="Thumbnail Image 1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/proj1img1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPortfolio"
+        app:layout_constraintVertical_bias="0.050000012" />
+
+    <!-- Enlarged Image Overlay -->
+
+    <ImageView
+        android:id="@+id/ivPortfolio2"
+        android:layout_width="195dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginStart="5dp"
+        android:contentDescription="Thumbnail Image 1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/proj1img2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPortfolio1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/ivPortfolio3"
+        android:layout_width="195dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="Thumbnail Image 1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/proj1img3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPortfolio1"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <!-- Enlarged Image Overlay -->
+    <ImageView
+        android:id="@+id/image_enlarged"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:src="@drawable/proj1img1"
+        android:contentDescription="Enlarged Image"
+        android:background="#CC000000"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/tvPortfolio2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:text="Tap the images to zoom!"
+        android:textAlignment="center"
+        android:textColor="@color/secondaryColor"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

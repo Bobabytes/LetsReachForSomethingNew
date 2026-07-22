@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Navdrawer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">#212227</item>
+        <item name="colorOnPrimary">#212227</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primaryColor</item>
+        <item name="colorSecondaryVariant">@color/primaryColor</item>
+        <item name="colorOnSecondary">#212227</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Navdrawer.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Navdrawer.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Navdrawer.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!-- My Custom Styles -->
+    <style name="ProjectAppTheme">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+    </style>
+
+    <style name="CustomNavigationText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/secondaryColor</item>
+    </style>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <action
+        android:id="@+id/action_nav_home_to_nav_contact"
+        app:destination="@id/nav_contact"
+        app:launchSingleTop="false"
+        app:popUpTo="@id/nav_home"
+        app:popUpToInclusive="true" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navdrawer.HomeFragment"
+        android:label="Welcome!"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.navdrawer.AboutFragment"
+        android:label="Learn about me."
+        tools:layout="@layout/fragment_about" />
+
+    <activity
+        android:id="@+id/nav_tabfolio"
+        android:name="com.example.navdrawer.TabbedPortfolio"
+        android:label="Check my Portfolio."
+        tools:layout="@layout/activity_tabbed_portfolio" />
+
+    <fragment
+        android:id="@+id/nav_petview"
+        android:name="com.example.navdrawer.PetViewFragment"
+        android:label="What's your favorite kind of pet?"
+        tools:layout="@layout/fragment_pet_view" />
+
+    <fragment
+        android:id="@+id/nav_foodview"
+        android:name="com.example.navdrawer.FoodViewFragment"
+        android:label="Get food recommendations."
+        tools:layout="@layout/fragment_food_view" />
+
+    <fragment
+        android:id="@+id/nav_statview"
+        android:name="com.example.navdrawer.StatViewFragment"
+        android:label="Leave a review; see your stats."
+        tools:layout="@layout/fragment_food_view" />
+
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.navdrawer.ContactFragment"
+        android:label="Get in touch."
+        tools:layout="@layout/fragment_contact" />
+</navigation>

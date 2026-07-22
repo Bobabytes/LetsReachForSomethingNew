@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212227"
+    android:orientation="vertical"
+    tools:context=".AboutFragment">
+
+    <ImageView
+        android:id="@+id/ivAbout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/about2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="cursive"
+        android:text="Me?"
+        android:textAlignment="center"
+        android:textColor="@color/primaryColor"
+        android:textSize="34sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tvAbout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="monospace"
+        android:text="Code connoisseur, web wizard, and boundary-breaking computer science maverick; I'm fusing artistic flair with technological mastery to revolutionize the digital realm. "
+        android:textAlignment="center"
+        android:textColor="@color/secondaryColor"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHome"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/tvAbout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="cursive"
+        android:text="My Skills?"
+        android:textAlignment="center"
+        android:textColor="@color/primaryColor"
+        android:textSize="34sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tvAbout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="monospace"
+        android:text="C, C++, HTML, CSS, JavaScript, MySQL, and more. Explore my portfolio to see some of the projects I've worked on; each project is a testament to my dedication to creating visually appealing and robust applications."
+        android:textAlignment="center"
+        android:textColor="@color/secondaryColor"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHome"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/tvAbout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="monospace"
+        android:text="...Just like this app! This android app was made for my Android Programming course; I hope my professor is impressed! They deserve no less in terms of effort. Hi, Professor."
+        android:textAlignment="center"
+        android:textColor="@color/secondaryColor"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHome"
+        app:layout_constraintVertical_bias="0.04" />
+
+</LinearLayout>

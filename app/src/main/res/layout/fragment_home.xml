@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212227"
+    tools:context=".HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="334dp"
+        android:layout_height="198dp"
+        android:src="@drawable/homepage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:layout_width="364dp"
+        android:layout_height="55dp"
+        android:fontFamily="cursive"
+        android:text="Let's reach for something new"
+        android:textAlignment="center"
+        android:textColor="@color/primaryColor"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+    <TextView
+        android:id="@+id/tvHome1"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Hello, I'm a passionate software developer with a knack for creating modern and user-friendly applications. Whether you need a personal portfolio, an e-commerce platform, or a dynamic web application, I've got you covered. I specialize in object-oriented programming, graphic design, UI-UX design, as well as front-end and back-end development, utilizing the latest technologies to bring your ideas to life; from responsive design to server-side scripting and beyond. While you're here, check the navigation drawer for some fun activities and more information."
+        android:textAlignment="center"
+        android:textColor="@color/secondaryColor"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHome"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/tvHome2"
+        android:layout_width="297dp"
+        android:layout_height="42dp"
+        android:fontFamily="monospace"
+        android:text="...Or alternatively, contact me using the button below."
+        android:textAlignment="center"
+        android:textColor="@color/secondaryColor"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHome1"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
